@@ -1,5 +1,9 @@
 # get_next_lie
  Reading a line from a fd, return it.
+
+```c
+ char *get_next_line(int fd);
+```
  
 ![get_next_line](https://github.com/leebo155/get_next_line/assets/81127600/e61c2c00-048e-4a27-8710-8501e7b318b5)
 
@@ -7,11 +11,6 @@
  * This project make me learn a highly interesting new concept in C programming: static variables.
  * Repeated calls to get_next_line read the text file that the file descriptor points to, one line at a time.
  * Return the line that was read. If there is nothing else to read or if an error occurred, it return null ptr.
-
-## Prototpye
-```c
- char *get_next_line(int fd);
-```
 
 ## Makefile
 | Rules | Description |
