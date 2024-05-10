@@ -8,6 +8,11 @@
  * Repeated calls to get_next_line read the text file that the file descriptor points to, one line at a time.
  * Return the line that was read. If there is nothing else to read or if an error occurred, it return null ptr.
 
+## Prototpye
+```c
+ char *get_next_line(int fd);
+```
+
 ## Makefile
 | Rules | Description |
 | ----- | ----------- |
